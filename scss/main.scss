@@ -1,0 +1,48 @@
+//Шрифты
+@import './utils/fonts';
+//Переменные с цветами 
+@import './utils/variables';
+/* Base */
+@import './base';
+// Visually hidden
+@import './utils/utils';
+// Text_brand
+@import './utils/text';
+// Section
+@import './layouts/section';
+
+.container {
+    width: 100%;
+    max-width: 1288px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+//Кнопки
+@import './components/button';
+//Ссылки
+@import './components/links';
+/* Header section */
+@import './layouts/header';
+/* Hero section */
+@import './layouts/hero-section';
+/* Advantge section */
+@import './layouts/advantages-section';
+/* Traditions Section */
+@import './layouts/traditons-section';
+/* Cooker Section */
+@import './layouts/cooker-section';
+// Coocker Card
+@import './components/cooker-card';
+/* Formats Section */
+@import './layouts/format-section';
+//Format Card
+@import './components/format-card';
+/* Carousel */
+@import './components/carousel-button';
+/* Contact Section */
+@import './layouts/contact-section';
+/* Footer Section */
+@import './layouts/footer';
+/* Form */
+@import './layouts/form_modal';
