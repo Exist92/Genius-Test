@@ -10,16 +10,12 @@
 @import './utils/text';
 // Section
 @import './layouts/section';
-
-.container {
-    width: 100%;
-    max-width: 1288px;
-    margin: 0 auto;
-    padding: 0 24px;
-}
-
+// Container 
+@import './layouts/container';
 //Кнопки
 @import './components/button';
+// Pagination
+@import './components/pagination';
 //Ссылки
 @import './components/links';
 /* Header section */
@@ -34,19 +30,20 @@
 @import './layouts/cooker-section';
 // Coocker Card
 @import './components/cooker-card';
-/* Formats Section */
-@import './layouts/format-section';
 //Format Card
 @import './components/format-card';
 /* Carousel */
 @import './components/carousel-button';
+/* Formats Section */
+@import './layouts/format-section';
 /* Contact Section */
 @import './layouts/contact-section';
 /* Footer Section */
 @import './layouts/footer';
+// Mobile Menu
+@import './layouts/mobile-menu';
 /* Form */
 @import './layouts/form_modal';
-
 //Form Terms
 @import './layouts/form-terms';
 //  Modal 
